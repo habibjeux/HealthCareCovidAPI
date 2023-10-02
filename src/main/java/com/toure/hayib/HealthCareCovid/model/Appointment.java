@@ -1,9 +1,11 @@
 package com.toure.hayib.HealthCareCovid.model;
 
 import jakarta.persistence.*;
+import lombok.Data;
 
 import java.util.Date;
 
+@Data
 @Entity
 @Table(name = "appointment")
 public class Appointment {
