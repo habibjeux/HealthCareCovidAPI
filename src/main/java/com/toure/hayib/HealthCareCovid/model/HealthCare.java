@@ -28,7 +28,7 @@ public class HealthCare {
     private Boolean testAvailability;
 
     @ManyToOne
-    @JoinColumn(name = "map_id")
+    @JoinColumn(name = "mapid")
     private Map map;
 
 }
